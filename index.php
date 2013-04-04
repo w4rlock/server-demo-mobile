@@ -1,9 +1,9 @@
 <?php
 session_start();
-require("db_connect.php");
-require("login.php");
-require("utils.php");
-require("usr.php");
+require_once("db_connect.php");
+require_once("login.php");
+require_once("utils.php");
+require_once("usr.php");
  
 $error='';
 
